@@ -1,0 +1,14 @@
+- type: ninjaHackingThreat
+  id: Spiders
+  announcement: terror-warning
+  rule: SpiderClanSpiderSpawn
+
+- type: ninjaHackingThreat
+  id: Borgs
+  announcement: terror-warning
+  rule: SpiderClanCyborgEvent
+
+- type: ninjaHackingThreat
+  id: LoneOp
+  announcement: terror-warning
+  rule: LoneOpsSpawn

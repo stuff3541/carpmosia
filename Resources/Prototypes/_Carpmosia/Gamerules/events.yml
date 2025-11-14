@@ -1,0 +1,11 @@
+- type: entity
+  parent: BaseGameRule
+  id: SpiderClanCyborgEvent
+  components:
+  - type: SpaceSpawnRule
+    spawnDistance: 0
+  - type: AntagSpawner
+    prototype: PlayerBorgSpiderClanGhostRole 
+  - type: AntagSelection
+    definitions:
+    - spawnerPrototype: SpawnPointGhostSpiderClanCyborg
